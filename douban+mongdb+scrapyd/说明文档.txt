@@ -1,0 +1,4 @@
+（默认MongoDB自启动）
+
+1.不启动scrapyd情况下，运行main.py自动将数据存储到MongoDB里面
+2.启动scrapyd情况下，运行外部调用scrapyd.py，打开http://localhost:6800/会看到爬虫进程，同时也会将数据存储在MongoDB里面
